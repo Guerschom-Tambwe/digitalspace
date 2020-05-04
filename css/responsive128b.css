@@ -1,0 +1,872 @@
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    
+    .btn-primary {
+        width: auto;
+        padding: 10px 20px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo img {
+        width: 60%;
+    }
+    
+    .specials-cta {
+        position:relative;
+        right: auto;
+        top:auto;
+    }
+    
+    .mobi-logo {
+        display: block;
+        width: 50%;
+        float: left;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .mobi-logo img {
+        width: 100%;
+    }
+    
+    .grey, .blog-main h2, .hmi2 h2, .team h2 {
+        font-size: 30px!important;
+    }
+
+    .home-header {
+        padding-top: 50px!important;
+        padding-bottom: 50px!important;
+    }
+
+    .home-header-heading {
+        text-align: center;
+        font-size: 40px;
+        width: 100%;
+        line-height: 45px;
+    }
+
+    .home-header-heading span {
+        width: auto!important;
+        font-size: 20px!important;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .home-header h1 {
+        text-align: center;
+    }
+    
+    .packages h2 {
+        line-height: 70px!important;
+        font-size: 30px;
+    }
+    
+    .navigation {
+        background-color: transparent;
+    }
+
+    .navigation .logo{ 
+        width: 90%;
+        text-align: center;
+    }
+
+    .navbar-header {
+        text-align: right;
+    }
+
+    .navbar-nav li {
+        display: block!important;
+        width: 100%;
+    }
+
+    .navbar-nav li a {
+        display: inline-block !important;
+        margin-top: 10px;
+        margin-bottom:10px;
+        padding-top: 0px!important;
+        padding-bottom: 0px!important;
+        color: white!important;
+        border-bottom: 0!important;
+    }
+
+    .navbar-default .dropdown-menu li a {
+        width: 100%;
+        text-align: center;
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+    
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a {
+        border-bottom: 0!important;
+    }
+
+    .navbar-default .navbar-collapse {
+        border-color: #fff;
+        text-align: center;
+    }
+    
+    .navbar-header button, .navbar-header button:hover {
+        background-color: transparent!important;
+        color: #58c8e0;
+        border-color: transparent!important;
+        border-radius: 0px;
+        float: none;
+        margin-right: 0px;
+        margin-top: 15px;
+        text-transform: uppercase;
+        font-size: 16px;
+        width: 50px;
+        padding: 0px 10px;
+    }
+    
+    .navbar-header button span {
+        font-size: 30px;
+        background-color:#58c8e0!important;
+    }
+    
+    .pl-details {
+    	padding: 20px;
+    	margin-top: -40px;
+    	margin-left: 20px;
+    	margin-right: 20px;
+    	min-height: 130px;
+    }
+
+    .hmi1 {
+        width: 100%!important;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .hmi1 p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .hmi2 {
+        width: 100%!important;
+        padding-right: 15px!important;
+        padding-left: 15px!important;
+    }
+    
+    .about-us-header, .services-header, .portfolio-header, .blog-header, .contact-header {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .portfolio-header h1, .about-us-header h1, .services-header h1, .clients-header h1, .contact-header h1 {
+        font-size: 30px;
+    }
+    
+    .about-us, .call-to-action {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .call-to-action h4 {
+        line-height: 35px;
+    }
+
+    .home-about h2 {
+        font-size: 45px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .home-about p { 
+        text-align: center;
+    }
+
+    .home-services {
+        text-align: center;
+    }    
+
+    .home-services img {
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .serv-col {
+        width: 50%;
+    }
+    
+    .home-port-overlay h3 {
+        font-size: 20px!important;
+    }
+    
+    .home-portfolio-items .col-md-8, .home-portfolio-items .col-md-4, .home-portfolio-items .col-md-3.pr-15 {
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+    
+    .home-portfolio {
+        margin-bottom: 30px!important;
+    }
+    
+    .home-port-overlay.sml p {
+        display: block!important;
+    }
+    
+    .home-port-overlay.lrg {
+        bottom: 20px!important;
+    }
+    
+    .home-port-overlay.lrg h3 {
+        line-height: 30px;
+    }
+    
+    .image-wrapper:hover .home-port-overlay.lrg {
+        bottom: 50px!important;
+    }
+
+    .portfolio-item {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        min-height: 300px!important;
+    }
+    
+    .portfolio-item h3, .portfolio-item h2 {
+        font-size: 20px;
+    }
+    
+    .portfolio-item p{
+    	font-size: 14px!important;
+    }
+
+    .overlay2 {
+        margin: 10px;
+        opacity: 1;
+        background-color: rgba(88,200,224,0.7);
+    }
+
+    .blog-main .overlay2 {
+        margin-top: 0px!important;
+        margin-bottom: 0px!important;
+    }
+
+    .home-twitter .icon { 
+        font-size: 50px;
+    }
+
+    .home-twitter .tweet #twitter-feed .item p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .portfolio-header h1, .about-us-header h1, .services-header h1, .clients-header h1, .contact-header h1 {
+        font-size: 30px;
+    }
+
+    .services-web h3, .services-seo h3, .services-graphics h3, .services-brand h3, .services-process h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .services-process h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .indiv-service .service-image {
+        display: none;
+    }
+
+    .indiv-service h2 {
+        line-height: 30px!important;
+    }
+
+    .project {
+        text-align: center;
+    }
+
+    .project h3 { 
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .infoWindow img {
+        width: 200px;
+    }
+
+    .infoWindow p {
+        font-size: 14px;
+    }
+
+    .home-process, .home-twitter, .services-seo, .services-photography, .testimonials {
+        background-attachment: scroll;
+    }
+
+    #example1 {
+        display: none;
+    }
+
+    .home-portfolio .col-md-2 {
+        width: 100%;
+        float: left;
+    }
+
+    .home-portfolio .services-block {
+        width: 100%;
+        height: 50px;
+    }
+
+    .services-block h3, .services-block .single {
+        padding-top: 15px;
+    }
+
+    .services-block {
+        width: 170px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .home .blog-main .blog-item img {
+        max-height: 250px;
+    }
+
+    .south-africa p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .about-us-header, .services-header, .portfolio-header, .blog-header, .contact-header {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .clientsmap h1, .blog-full .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .portfolio .pl-details {
+    	padding: 20px;
+    	margin-top: -40px;
+    	margin-left: 20px;
+    	margin-right: 20px;
+    	min-height: 100px;
+    	height: auto;
+    }
+    
+    .sp-images {
+        /*display: none;*/
+    }
+    
+    .sp-text {
+        padding-left: 15px;
+    }
+    
+    .pagination .prev, .pagination .next {
+        font-size: 16px;
+        font-weight: 500;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .pagination {
+        margin-bottom: 0;
+    }
+    
+    .mobile-images {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .portfolio-overlay {
+        opacity: 1;
+    }
+
+    .home-mobile-header {
+        display: block;
+    }
+    
+    .input {
+        width: 100%!important;
+        padding-right: 0;
+    }
+    
+    .checkboxes input {
+        width: 30px!important;
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    
+    .checkboxes span {
+    	width:80%!important;
+    	vertical-align: middle;
+    	padding-bottom: 10px;
+    }
+    
+    input, textarea, select {
+    	background-color: #fff;
+    	width: 100%!important;
+    }
+    
+    form textarea {
+    	height:150px!important;
+    }
+    
+    .content.home h2 {
+        line-height: 40px;
+    }
+    
+    footer .footer-lower .socials {
+        float: none;
+    }
+
+    footer .footer-lower p {
+        text-align: center;
+    }
+    
+    footer .footer-lower .socials li {
+        padding-top: 0px; 
+        padding-bottom: 10px;
+        margin-left: 15px;
+    }
+
+    .blog-header h1 {
+        font-size: 30px!important;
+        line-height: 30px;
+    }
+
+    .blog-full .blog-item h2 {
+        font-size: 25px!important;
+        line-height: 25px;
+    }
+    
+    .blog-main .blog-item {
+    	margin-bottom: 20px;
+    	padding-bottom: 5px;
+    	min-height:250px;
+    	height: auto;
+    }
+    
+    .email-cta {
+        width: 320px!important;
+    }
+    
+    /*Owl carousel styles*/
+
+    .owl-carousel.home-header .owl-nav {
+    	width: 100%;
+    	position: absolute;
+    	top: 100%;
+    }
+    
+    .owl-carousel .owl-nav .owl-next i, .owl-carousel .owl-nav .owl-prev i {
+        font-size: 25px;
+    }
+    
+    .owl-carousel .owl-nav .owl-next {
+    	width: 10%;
+    	float: right;
+    	text-align: right;
+    	right: 0!important;
+    }
+    
+    .owl-carousel .owl-nav .owl-prev {
+    	left: 0!important;
+    	width: 10%;
+    	float: left;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px){
+    
+    .logo{ 
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo img {
+        width: 35%;
+    }
+
+    .navbar-nav li a {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-top: 0;
+    }
+
+    .navbar-right {
+        float: none!important;
+    }
+
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+    
+    .home-header {
+    	padding-top: 70px;
+    	padding-bottom: 70px;
+    }
+    
+    .btn-primary {
+        width: auto;
+        padding: 10px 20px;
+    }
+
+    .hmi1, .hmi2 {
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+
+    .home-portfolio .col-md-2 {
+        width: 50%!important;
+        float: left;
+    }
+
+    .home-about p{
+        text-align: center;
+    }
+
+    .home-about h2 {
+        font-size: 40px;
+        line-height: 45px;
+        text-align: center;
+    }
+
+    .portfolio-item {
+        width: 50%;
+        float: left;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 10px;
+        margin-bottom: 10px;
+	    min-height: 300px;
+    }
+    
+    .portfolio-item p{
+    	font-size: 15px!important;
+    }
+    
+    .portfolio .portfolio-item {
+    	min-height: 400px;
+    }
+
+    .overlay2 {
+        margin: 10px;
+        opacity: 1;
+        background-color: rgba(88,200,224,0.5);
+    }
+
+    .blog-main .overlay2 {
+        margin-top: 0px!important;
+        margin-bottom: 0px!important;
+    }
+    
+    .blog-main .blog-item {
+    	margin-bottom: 20px;
+    	padding: 0px;
+    	padding-bottom: 15px;
+    	min-height: 0px;
+    }
+    
+    .blog-main .blog-item h3 {
+        font-size: 15px;
+        min-height: 0px;
+        height:auto!important;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    
+    .blog-main .col-md-4{
+        display: inline-block!important;
+        width: 33.3%!important;
+        float: left;
+    }
+    
+    .home-services p {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .home-services .col-md-4 {
+        min-height: 250px;
+    }
+
+    .services-web ul, .services-graphics ul, .services-graphics .services-list {
+        text-align: center;
+    }
+
+    .project {
+        text-align: center;
+    }
+
+    .project img {
+        padding: 20px;
+    }
+    
+    .serv-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    
+    .home-portfolio-items .col-md-8, .home-portfolio-items .col-md-4, .home-portfolio-items .col-md-3.pr-15 {
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+    
+    .home-portfolio {
+        margin-bottom: 30px!important;
+    }
+    
+    .home-port-overlay.sml p {
+        display: block!important;
+    }
+    
+    .home-port-overlay.lrg {
+        bottom: 20px!important;
+    }
+    
+    .home-port-overlay h3 {
+        line-height: 50px!important;
+        font-size: 40px!important;
+    }
+    
+    .home-port-overlay p {
+        font-size: 18px!important;
+    }
+    
+    .image-wrapper:hover .home-port-overlay.lrg {
+        bottom: 50px!important;
+    }
+
+    footer .copyright{
+        text-align: center!important;
+    }
+
+    footer .footer-lower .socials {
+        float: none;
+    }
+
+    .services-block {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .services-block h3 {
+        padding-top: 22%;
+    }
+
+    .services-block .single{
+        padding-top: 22%;   
+    }
+
+    .home .blog-main .blog-item img, .blog-main .blog-item img {
+        max-height: 350px;
+    }
+
+    .south-africa h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .about-us-header, .services-header, .portfolio-header, .blog-header, .contact-header {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .clientsmap h1, .blog-full .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .portfolio-overlay {
+        opacity: 1;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    .home-mobile-header {
+        display: block;
+    }
+    
+    .contact-details .col-md-6 {
+        width: 50%;
+        float: left;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .grey {
+    	font-size: 30px!important;
+    }
+    
+    .contact-details i {
+    	font-size: 40px;
+    	padding-top: 30px;
+    }
+    
+    .team .col-md-3 {
+        width: 50%;
+        float: left;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .sp-images {
+        /*display: none;*/
+    }
+    
+    .sp-text {
+        padding-left: 15px;
+    }
+    
+    .pagination .prev, .pagination .next {
+        font-size: 16px;
+        font-weight: 500;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .pagination {
+        margin-bottom: 0;
+    }
+    
+    .mobile-images {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .welcome h1 {
+        margin-top: 200px;
+        font-size: 45px;
+    }
+
+    .navigation .logo{ 
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-nav {
+        text-align: left;
+    }
+    
+    .navbar-nav li a {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        margin-right: 7px;
+        margin-left: 7px;
+        font-size: 15px;
+    }
+    
+    .specials-cta {
+        padding: 7px;
+        font-size: 12px;
+        top: 12px;
+    }
+    
+    .specials-cta span {
+        font-size: 10px;
+    }
+
+    .home-about h2 {
+        font-size: 50px;
+    }
+
+    .overlay2 {
+        opacity: 1;
+        background-color: rgba(88,200,224,0.5);
+    }
+
+    .blog-main .blog-item h3 {
+        font-size: 15px!important;
+        text-transform: none;
+    }
+
+    .home .blog-main .blog-item img {
+        height: 195px!important;
+    }
+    
+    .blog-main .blog-item {
+        padding-bottom: 0;
+        min-height: 450px;
+    }
+    
+    .single-project .col-md-8 {
+        width: 40%;
+        float: left;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .single-project .col-md-4 {
+        width: 60%;
+        float: left;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .sp-text p {
+        font-size: 14px;
+    }
+    
+    .pi-services {
+        font-size: 13px;
+    }
+    
+    .pi-services br {
+        display: none;
+    }
+    
+    .pi-services span {
+        margin-right: 10px;
+    }
+    
+    .single-project h2 {
+        font-size: 17px;
+        line-height: 22px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .sp-btns .btn-primary {
+        padding: 5px;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1199px) and (max-width: 1300px) {
+    .navbar-nav li a {
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+}
+
+@media (min-width: 1199px) and (max-width: 1600px) {
+    .single-project .col-md-8 {
+        width: 40%;
+        float: left;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .single-project .col-md-4 {
+        width: 60%;
+        float: left;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
